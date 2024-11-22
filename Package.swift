@@ -5,7 +5,6 @@ let package = Package(
     name: "Frames",
     defaultLocalization: "en",
     platforms: [
-        .macOS(.v10_12),
         .iOS(.v12)
     ],
     products: [
@@ -17,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/marmelroy/PhoneNumberKit.git",
-            exact: "3.5.9"),
+            exact: "4.0.0"),
         .package(
             url: "https://github.com/checkout/checkout-risk-sdk-ios.git",
             exact: "3.0.2"),
